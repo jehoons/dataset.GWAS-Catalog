@@ -201,6 +201,9 @@ def test_coverage():
     # ipdb> len(snps_from_dhimmel - snps_from_gwas)
     # 181
 
+    # snps_from_gwas 가 크기가 훨씬 크지만 dhimmel 레코드들이 포함되지 않는 경우가 약간 있다... 
+    # 왜 그럴까? 
+
     set_trace()
     pass 
 
